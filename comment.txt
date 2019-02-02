@@ -1,0 +1,9 @@
+Summary: This is a Laravel Web Application. This application is built using Laravel Framework version 5.7
+         The Purpose of this application is to collect film details and store in database. Then show every film information
+         to the people and users. Every one will be able see every film details and comments belonging to that film. But, only users
+         those are authorized and authenticated will be able to add comments to any particular film. If someone doesn't have
+         an user account to this site won't be able to add comment but anyone will be able to see any information and comment
+         of any film collected on this site. Best of Luck
+
+         N.B. The default guard is set to 'web', to access api need to set the default guard to 'api' in auth.php file in
+              config directory

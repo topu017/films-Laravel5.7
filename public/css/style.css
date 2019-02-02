@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar_container{
+    background-color: #002752;
+}
+.header_logo img{
+    width: 30px;
+    height: 30px;
+}
+.container_fluid{
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/page_background.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+/*Footer*/
+.bg-grey {
+    background: #292929;
+}
+.logo-footer {
+    margin-bottom: 40px;
+}
+footer {
+    color: grey;
+}
+footer p, a {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    position: relative;
+}
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+.btn-footer {
+    color: grey;
+
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    line-height: 47px;
+}
+.btn-footer:hover {
+
+    text-decoration: none;
+
+}
+.form-footer input[type="text"] {
+    border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+
+}
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+.form-footer input[type="button"] {
+    border: none;
+    background:#232323;
+    margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+.social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+footer ul li {
+    list-style: none;
+    display: block;
+}
+footer ul  {
+    padding-left: 0;
+}
+footer ul  li a{
+    text-decoration: none;
+    color: grey;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+
+}
+.logo-part {
+    border-right: 1px solid grey;
+    height: 100%;
+}
+
+/*Auth*/
+.auth_container{
+    padding-top: 4%;
+}
+.auth_content{
+    background-color: #bebebe!important;
+}
+
+
+/*Index*/
+.index_container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+.index_container_content{
+    padding-top: 3%;
+    width: 94%;
+    padding-left: 10%;
+}
+.index_container_content_top{
+    height: 200px;
+    padding-top: 3%;
+    text-align: center;
+    line-height: .5;
+}
+.index_image{
+    width: 250px;
+    height: 200px;
+}
+.index_paginate ul>li>a{
+    background-color: #062c33;
+}
+.card-title a{
+    color: #6574cd;
+    font-size: 20px;
+}
+.card-body h4{
+    color: #7DA0B1;
+}
+.card-body h5{
+    color: #d7f3e3;
+}
+.card-body p{
+    color: #ffe8a1;
+}
+/*Film Create*/
+.create_container{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.form_container{
+    padding-top: 3%;
+}
+.form_container h1{
+    text-align: center;
+    color: #ffe8a1;
+}
+.form_container label{
+    color: #ffe8a1;
+}
+/*Film Show*/
+.container_fluid_show{
+    width: 100%;
+    height: auto;
+    background-image: url("../images/page_background.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.show_container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+.show_container_content_top{
+    width: 100%;
+    height: auto;
+    padding: 5% 15%;
+}
+.show_image{
+    width: 500px;
+    height: 440px;
+}
+.media-body{
+    margin-top: 5%;
+}
+.media-body h2>a{
+    color: #6574cd;
+    font-size: 20px;
+}
+.media-body h4{
+    color: #7DA0B1;
+}
+.media-body h5{
+    color: #d7f3e3;
+}
+.media-body p{
+    color: #ffe8a1;
+}
+.show_container_content_bottom{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.show_container_content_bottom_form{
+    margin-top: 5%;
+    height: 350px;
+}
+
+
+
